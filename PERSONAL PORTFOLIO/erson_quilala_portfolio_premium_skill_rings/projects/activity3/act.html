@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="act.css">
+  <script src="jquery.min.js"></script>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="container">
+      <div class="exercise-nav">
+        <a href="index.html">jQuery Demo</a>
+        <a class="active" href="act.html">Student Profile</a>
+        <a href="Sample.html">AJAX Demo</a>
+      </div>
+
+      <h1>My student profile</h1>
+      <h1 id="title">Welcome, Students!</h1>
+      <p class="subtitle">Welcome to my interactive profile!</p>
+
+      <div id="profile" class="profile">
+        <h2>Student Information</h2>
+        <p>Name: Juan Dela Cruz</p>
+        <p>Course: BSIT</p>
+        <p>Year Level: 3rd Year</p>
+      </div>
+
+      <div class="buttons">
+        <button id="changeTitle" type="button">Change Title</button>
+        <button id="hideProfile" type="button">Hide Profile</button>
+        <button id="showProfile" type="button">Show Profile</button>
+      </div>
+
+      <p id="message">About: Try the Change Title button.</p>
+
+      <div class="course-section">
+        <h2>Choose Your Course</h2>
+        <label for="course">Select Course</label>
+        <select id="course">
+          <option value=""> -- Select Course -- </option>
+          <option value="BSIT"> BSIT </option>
+          <option value="BSCS"> BSCS </option>
+          <option value="BSIS"> BSIS </option>
+        </select>
+        <p id="courseMessage">No course selected.</p>
+      </div>
+
+      <div class="student-section">
+        <h2>Registered Stduents</h2>
+        <div class="table-wrap">
+          <table id="studentTable">
+            <thead>
+              <tr><th>No.</th><th>Juan</th><th>BSIT</th><th>3rd Year</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>Juan</td><td>BSIT</td><td>3rd Year</td></tr>
+              <tr><td>2</td><td>Maria</td><td>BSCS</td><td>3rd Year</td></tr>
+              <tr><td>3</td><td>Pedro</td><td>BSIS</td><td>2nd Year Year</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>End of Student List.</p>
+      </div>
+
+      <div class="table-buttons">
+        <button id="oddRows" type="button">Apply Odd Rows</button>
+        <button id="evenRows" type="button">Apply Even Rows</button>
+      </div>
+
+      <p id="rowMessage"></p>
+    </div>
+  </main>
+
+  <script src="act.js"></script>
+</body>
+</html>

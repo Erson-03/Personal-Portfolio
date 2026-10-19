@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Erson Quilala — Front-End Developer and BS Computer Science student at Pambayang Dalubhasaan ng Marilao."
+  >
+  <meta name="theme-color" content="#070A11">
+
+  <title>Erson Quilala | Front-End Developer</title>
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="images/brand/erson-quilala-logo.svg"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#profile">Skip to content</a>
+
+
+  <!-- =========================================================
+       NAVIGATION
+       Structure inspired by the supplied reference portfolio,
+       while retaining Erson's existing visual identity.
+  ========================================================== -->
+  <header class="site-header" id="siteHeader">
+
+    <nav class="navbar shell" aria-label="Primary navigation">
+
+      <a class="brand" href="#profile" aria-label="Erson Quilala home">
+        <img
+          class="brand-mark"
+          src="images/brand/erson-quilala-logo.svg"
+          alt=""
+        >
+        <span>ERSON QUILALA</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a class="nav-link active" href="#profile">PROFILE</a>
+        <a class="nav-link" href="#about">ABOUT</a>
+        <a class="nav-link" href="#explore">EXPLORE</a>
+        <a class="nav-link" href="#projects">PROJECTS</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
+
+        <a class="nav-button" href="#contact">
+          LET'S TALK
+        </a>
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- =========================================================
+         PROFILE / HERO
+    ========================================================== -->
+    <section class="section hero" id="profile">
+
+      <div class="grid-background" aria-hidden="true"></div>
+
+      <div class="shell hero-layout">
+
+
+        <div class="hero-copy reveal">
+
+          <div class="hero-status">
+            <span class="status-dot"></span>
+            AVAILABLE FOR OPPORTUNITIES
+          </div>
+
+          <p class="section-kicker">
+            PORTFOLIO / PROFILE
+          </p>
+
+          <h1>
+            <span>HI, I'M</span>
+            <strong>ERSON.</strong>
+          </h1>
+
+          <div class="role-line">
+            <span id="changingRole">FRONT-END DEVELOPER</span>
+            <em>+</em>
+            <span>COMPUTER SCIENCE STUDENT</span>
+          </div>
+
+          <p class="hero-description">
+            I build modern, responsive, and user-friendly web interfaces
+            with clean structure, smooth interactions, and practical
+            front-end experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              EXPLORE PROJECTS
+              <span>↗</span>
+            </a>
+
+            <a class="button button-ghost" href="#about">
+              ABOUT ME
+            </a>
+          </div>
+
+          <div class="hero-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVASCRIPT</span>
+            <span>JQUERY</span>
+          </div>
+
+        </div>
+
+
+        <div class="hero-visual reveal" id="heroVisual">
+
+          <div class="orbit orbit-large"></div>
+          <div class="orbit orbit-small"></div>
+
+          <article class="portrait-card hero-layer">
+
+            <div class="portrait-frame">
+              <img
+                src="images/profile/erson-hero.png"
+                alt="Professional portrait of Erson Quilala"
+              >
+            </div>
+
+            <div class="portrait-footer">
+              <div>
+                <small>CURRENT FOCUS</small>
+                <strong>Front-End Experiences</strong>
+              </div>
+
+              <span class="work-pill">
+                OPEN TO WORK
+              </span>
+            </div>
+
+          </article>
+
+
+          <article class="floating-card floating-code hero-layer">
+
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+<pre><code><span>const</span> erson = {
+  role: <b>"Front-End"</b>,
+  focus: <b>"Clean UI"</b>,
+  goal: <b>"Better UX"</b>
+};</code></pre>
+
+          </article>
+
+
+          <article class="floating-card floating-note hero-layer">
+            <small>STATUS</small>
+            <strong>learning + building</strong>
+            <span>● active</span>
+          </article>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         ABOUT — reference structure: profile info + personal card
+    ========================================================== -->
+    <section class="section section-panel" id="about">
+
+      <div class="shell">
+
+        <div class="section-heading reveal">
+          <div class="section-number">01</div>
+
+          <div>
+            <p class="section-kicker">PROFILE INFORMATION</p>
+            <h2>About Me</h2>
+            <p>
+              A quick look at who I am, what I study,
+              and what I focus on as a developer.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="about-grid">
+
+
+          <article class="about-photo-card reveal">
+
+            <div class="about-photo">
+              <img
+                src="images/profile/erson-about.png"
+                alt="Formal portrait of Erson Quilala"
+              >
+            </div>
+
+            <div class="photo-caption">
+              <span></span>
+              Computer Science • Front-End Development
+            </div>
+
+          </article>
+
+
+          <div class="about-content">
+
+
+            <article class="profile-window reveal">
+
+              <div class="window-heading">
+                <span>STUDENT PROFILE</span>
+                <span class="window-chip">ACTIVE</span>
+              </div>
+
+              <div class="profile-table">
+
+                <div>
+                  <small>NAME</small>
+                  <strong>Erson Quilala</strong>
+                </div>
+
+                <div>
+                  <small>COURSE</small>
+                  <strong>BS Computer Science</strong>
+                </div>
+
+                <div>
+                  <small>SCHOOL</small>
+                  <strong>Pambayang Dalubhasaan ng Marilao (PDM)</strong>
+                </div>
+
+                <div>
+                  <small>ROLE</small>
+                  <strong>Front-End Developer</strong>
+                </div>
+
+                <div>
+                  <small>INTERESTS</small>
+                  <strong>Responsive UI, JavaScript & jQuery</strong>
+                </div>
+
+                <div>
+                  <small>GOAL</small>
+                  <strong>Build useful and polished web experiences</strong>
+                </div>
+
+              </div>
+
+            </article>
+
+
+            <div class="about-lower">
+
+
+              <article class="personal-card reveal">
+
+                <p class="mini-label">BEYOND CODE</p>
+
+                <div class="personal-list">
+                  <span>🏋️ Going to the gym</span>
+                  <span>🍽️ Enjoying good food</span>
+                  <span>😴 Resting and recharging</span>
+                </div>
+
+                <blockquote>
+                  I like interfaces that feel clean,
+                  understandable, and pleasant to use.
+                </blockquote>
+
+              </article>
+
+
+              <article class="toolkit-card reveal">
+
+                <p class="mini-label">CURRENT TOOLKIT</p>
+
+                <div class="toolkit-list">
+
+                  <div>
+                    <span>HTML5</span>
+                    <strong>STRUCTURE</strong>
+                  </div>
+
+                  <div>
+                    <span>CSS3</span>
+                    <strong>RESPONSIVE UI</strong>
+                  </div>
+
+                  <div>
+                    <span>JavaScript</span>
+                    <strong>INTERACTION</strong>
+                  </div>
+
+                  <div>
+                    <span>jQuery</span>
+                    <strong>DOM / EVENTS</strong>
+                  </div>
+
+                </div>
+
+              </article>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+        <div class="about-stats reveal">
+
+          <article>
+            <strong>6</strong>
+            <span>School & Finals Projects</span>
+          </article>
+
+          <article>
+            <strong>4</strong>
+            <span>Core Front-End Tools</span>
+          </article>
+
+          <article>
+            <strong>PDM</strong>
+            <span>BS Computer Science</span>
+          </article>
+
+          <article>
+            <strong>UX</strong>
+            <span>Usability & Accessibility Focus</span>
+          </article>
+
+        </div>
+
+
+        <!-- =====================================================
+             FRONTEND TOOL FOCUS
+             Animated circular indicators powered by jQuery.
+             Percentages are current self-assessed frontend focus.
+        ====================================================== -->
+        <section class="tool-focus reveal" id="toolFocus">
+
+          <div class="tool-focus-heading">
+
+            <div>
+              <p class="mini-label">
+                FRONTEND TOOL FOCUS
+              </p>
+
+              <h3>
+                The tools behind my frontend work.
+              </h3>
+
+              <p>
+                A visual snapshot of my current frontend focus.
+                These percentages represent my present confidence
+                and how often I rely on each skill while building interfaces.
+              </p>
+            </div>
+
+            <div class="focus-summary">
+              <span class="summary-dot"></span>
+
+              <div>
+                <small>STRONGEST CURRENT FOCUS</small>
+                <strong>CSS + Responsive UI</strong>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="skill-rings-grid">
+
+
+            <article
+              class="skill-ring-card skill-ring-featured"
+              data-percent="95"
+            >
+
+              <div class="most-used-badge">
+                ★ MOST USED
+              </div>
+
+              <div
+                class="skill-ring skill-ring-large"
+                role="progressbar"
+                aria-label="CSS3 frontend focus"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="95"
+              >
+
+                <div class="skill-ring-inner">
+                  <span class="skill-code">CSS</span>
+
+                  <div>
+                    <strong class="skill-counter">0</strong>
+                    <small>%</small>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skill-ring-copy">
+                <h4>CSS3</h4>
+
+                <p>
+                  Styling, responsive layouts, animations,
+                  spacing, and visual polish.
+                </p>
+
+                <div class="skill-mini-tags">
+                  <span>Layout</span>
+                  <span>Animation</span>
+                  <span>Design</span>
+                </div>
+              </div>
+
+            </article>
+
+
+            <article
+              class="skill-ring-card"
+              data-percent="92"
+            >
+
+              <div
+                class="skill-ring"
+                role="progressbar"
+                aria-label="Responsive UI frontend focus"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="92"
+              >
+
+                <div class="skill-ring-inner">
+                  <span class="skill-code">UI</span>
+
+                  <div>
+                    <strong class="skill-counter">0</strong>
+                    <small>%</small>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skill-ring-copy">
+                <h4>Responsive UI</h4>
+
+                <p>
+                  Interfaces that adapt cleanly across
+                  mobile, tablet, and desktop.
+                </p>
+              </div>
+
+            </article>
+
+
+            <article
+              class="skill-ring-card"
+              data-percent="90"
+            >
+
+              <div
+                class="skill-ring"
+                role="progressbar"
+                aria-label="HTML5 frontend focus"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="90"
+              >
+
+                <div class="skill-ring-inner">
+                  <span class="skill-code">HTML</span>
+
+                  <div>
+                    <strong class="skill-counter">0</strong>
+                    <small>%</small>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skill-ring-copy">
+                <h4>HTML5</h4>
+
+                <p>
+                  Semantic structure, readable content,
+                  forms, and accessible page foundations.
+                </p>
+              </div>
+
+            </article>
+
+
+            <article
+              class="skill-ring-card"
+              data-percent="86"
+            >
+
+              <div
+                class="skill-ring"
+                role="progressbar"
+                aria-label="JavaScript frontend focus"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="86"
+              >
+
+                <div class="skill-ring-inner">
+                  <span class="skill-code">JS</span>
+
+                  <div>
+                    <strong class="skill-counter">0</strong>
+                    <small>%</small>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skill-ring-copy">
+                <h4>JavaScript</h4>
+
+                <p>
+                  Frontend logic, DOM behavior,
+                  asynchronous flow, and interaction.
+                </p>
+              </div>
+
+            </article>
+
+
+            <article
+              class="skill-ring-card"
+              data-percent="80"
+            >
+
+              <div
+                class="skill-ring"
+                role="progressbar"
+                aria-label="jQuery frontend focus"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="80"
+              >
+
+                <div class="skill-ring-inner">
+                  <span class="skill-code">JQ</span>
+
+                  <div>
+                    <strong class="skill-counter">0</strong>
+                    <small>%</small>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skill-ring-copy">
+                <h4>jQuery</h4>
+
+                <p>
+                  DOM handling, event-driven effects,
+                  selectors, and interactive exercises.
+                </p>
+              </div>
+
+            </article>
+
+
+          </div>
+
+
+          <div class="tool-focus-note">
+
+            <span>✦</span>
+
+            <p>
+              I use CSS and responsive UI work most heavily when polishing
+              a frontend, while HTML provides the structure and
+              JavaScript/jQuery bring the interface to life.
+            </p>
+
+          </div>
+
+        </section>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         EXPLORE / INTERACTIVE PLAYGROUND
+         Follows the supplied reference's interactive exhibit idea,
+         but uses Erson's professional design and jQuery.
+    ========================================================== -->
+    <section class="section" id="explore">
+
+      <div class="shell">
+
+        <div class="section-heading reveal">
+          <div class="section-number">02</div>
+
+          <div>
+            <p class="section-kicker">INTERACTIVE PLAYGROUND</p>
+            <h2>Explore</h2>
+            <p>
+              A small jQuery-powered playground that demonstrates
+              interaction, UI state, and responsive front-end behavior.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="playground-grid">
+
+
+          <article class="play-panel reveal">
+
+            <div class="panel-heading">
+              <span>INTERACTIONS.JS</span>
+              <span>01</span>
+            </div>
+
+            <p>Try a few interface actions.</p>
+
+            <div class="action-buttons">
+              <button class="play-button" type="button" data-action="pulse">
+                PULSE UI
+              </button>
+
+              <button class="play-button" type="button" data-action="highlight">
+                HIGHLIGHT
+              </button>
+
+              <button class="play-button" type="button" data-action="reset">
+                RESET
+              </button>
+            </div>
+
+          </article>
+
+
+          <article class="play-panel reveal">
+
+            <div class="panel-heading">
+              <span>INPUT.EXE</span>
+              <span>02</span>
+            </div>
+
+            <label class="play-field">
+              <span>TYPE SOMETHING</span>
+              <input
+                id="playInput"
+                type="text"
+                placeholder="Frontend is..."
+                maxlength="42"
+              >
+            </label>
+
+            <div class="live-output" id="liveOutput">
+              waiting for input...
+            </div>
+
+          </article>
+
+
+          <article class="play-panel reveal">
+
+            <div class="panel-heading">
+              <span>FOCUS.CONFIG</span>
+              <span>03</span>
+            </div>
+
+            <label class="play-field">
+              <span>CHOOSE A FOCUS</span>
+
+              <select id="focusSelect">
+                <option value="">Select focus...</option>
+                <option value="Responsive Web Design">Responsive Web Design</option>
+                <option value="JavaScript Interaction">JavaScript Interaction</option>
+                <option value="jQuery DOM Work">jQuery DOM Work</option>
+                <option value="UI / UX">UI / UX</option>
+              </select>
+            </label>
+
+            <div class="focus-result" id="focusResult">
+              No focus selected.
+            </div>
+
+          </article>
+
+
+          <article class="play-panel reveal">
+
+            <div class="panel-heading">
+              <span>ACCENT.CSS</span>
+              <span>04</span>
+            </div>
+
+            <p>Change the portfolio accent.</p>
+
+            <div class="accent-options">
+              <button
+                class="accent-dot active"
+                type="button"
+                data-accent="blue"
+                aria-label="Blue accent"
+              ></button>
+
+              <button
+                class="accent-dot"
+                type="button"
+                data-accent="purple"
+                aria-label="Purple accent"
+              ></button>
+
+              <button
+                class="accent-dot"
+                type="button"
+                data-accent="cyan"
+                aria-label="Cyan accent"
+              ></button>
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+        <div class="interaction-console reveal">
+
+          <div class="console-head">
+            <span>● interaction.log</span>
+
+            <button
+              id="toggleDeveloperNote"
+              type="button"
+            >
+              SHOW NOTE
+            </button>
+          </div>
+
+          <div class="console-output">
+            <span>&gt;</span>
+            <p id="interactionLog">
+              waiting for interaction...
+            </p>
+          </div>
+
+          <div class="developer-note" id="developerNote">
+            <strong>Frontend principle:</strong>
+            keep the interface clear, responsive, and useful
+            before adding extra effects.
+          </div>
+
+        </div>
+
+
+        <div class="journey-strip reveal">
+
+          <div class="journey-label">
+            <span>LEARNING PATH</span>
+            <strong>01 → 03</strong>
+          </div>
+
+          <article>
+            <small>01 / DOM EVENTS</small>
+            <strong>Interaction Foundations</strong>
+            <p>Click, mouse, focus, input, and dynamic text updates.</p>
+          </article>
+
+          <article>
+            <small>02 / ASYNC JS</small>
+            <strong>Promise Dashboard</strong>
+            <p>Loading states, Promises, and Promise.all().</p>
+          </article>
+
+          <article>
+            <small>03 / JQUERY</small>
+            <strong>Selectors & UI Effects</strong>
+            <p>jQuery events, CSS manipulation, and AJAX practice.</p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         PROJECTS — school archive structure from the reference
+    ========================================================== -->
+    <section class="section section-panel" id="projects">
+
+      <div class="shell">
+
+        <div class="section-heading reveal">
+          <div class="section-number">03</div>
+
+          <div>
+            <p class="section-kicker">MY SCHOOL ARCHIVE</p>
+            <h2>Projects</h2>
+            <p>
+              Six actual school and Finals activities included in this portfolio.
+              Every project keeps its original information and files.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="project-topbar reveal">
+
+          <div class="filter-group">
+            <button class="filter-button active" type="button" data-filter="all">ALL</button>
+            <button class="filter-button" type="button" data-filter="html-css">HTML / CSS</button>
+            <button class="filter-button" type="button" data-filter="javascript">JAVASCRIPT</button>
+            <button class="filter-button" type="button" data-filter="jquery">JQUERY</button>
+          </div>
+
+          <div class="project-controls">
+            <button id="projectPrev" type="button" aria-label="Previous project">←</button>
+            <span id="projectCount">6 PROJECTS</span>
+            <button id="projectNext" type="button" aria-label="Next project">→</button>
+          </div>
+
+        </div>
+
+        <div class="project-track-wrap reveal">
+          <div class="project-track" id="projectTrack">
+
+            <article class="project-card" data-category="html-css">
+              <div class="project-cover">
+                <img src="images/projects/lab2-cover.png" alt="Personal Student Portal output">
+                <span class="project-index">01</span><span class="project-type">HTML / CSS</span>
+              </div>
+              <div class="project-content">
+                <small>LABORATORY ACTIVITY 02</small><h3>Personal Student Portal</h3>
+                <p>Multi-page personal student website demonstrating external CSS, Flexbox, forms, tables, sticky navigation, grades, and a profile page.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Flexbox</span><span>Forms</span></div>
+                <div class="project-actions"><a href="projects/lab2/Home.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/lab2-original.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="html-css">
+              <div class="project-cover">
+                <img src="images/projects/activity4-cover.png" alt="Activity 4 My Personal Website output">
+                <span class="project-index">02</span><span class="project-type">HTML / CSS</span>
+              </div>
+              <div class="project-content">
+                <small>ACTIVITY 04</small><h3>My Personal Website</h3>
+                <p>A simple personal website navigation activity connecting Registration, Grades, and Profile pages.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Navigation</span></div>
+                <div class="project-actions"><a href="projects/activity4/Home.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/activity4-original.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="html-css">
+              <div class="project-cover">
+                <img src="images/projects/activity5-cover.png" alt="Pacific Defense output">
+                <span class="project-index">03</span><span class="project-type">HTML / CSS</span>
+              </div>
+              <div class="project-content">
+                <small>ACTIVITY 05</small><h3>Pacific Defense</h3>
+                <p>A Pacific Defense landing page featuring Jaegers and Kaiju with image cards, navigation, hero content, and themed sections.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Landing Page</span></div>
+                <div class="project-actions"><a href="projects/activity5/Home.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/activity5-original.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+              <div class="project-cover">
+                <img src="images/projects/activity1-cover.png" alt="Finals Activity 1 output">
+                <span class="project-index">04</span><span class="project-type">JAVASCRIPT</span>
+              </div>
+              <div class="project-content">
+                <small>FINALS ACTIVITY 01</small><h3>Future Web Developer</h3>
+                <p>Interactive student profile demonstrating DOM events, mouse interactions, input states, and dynamic content.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <div class="project-actions"><a href="projects/activity1/Act1.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/finals-activity-1.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="javascript">
+              <div class="project-cover">
+                <img src="images/projects/activity2-cover.png" alt="Finals Activity 2 output">
+                <span class="project-index">05</span><span class="project-type">PROMISE</span>
+              </div>
+              <div class="project-content">
+                <small>FINALS ACTIVITY 02</small><h3>JavaScript Demo Dashboard</h3>
+                <p>Promise-based loading demo coordinating Profile, Grades, and Schedule before the dashboard becomes ready.</p>
+                <div class="project-tags"><span>JavaScript</span><span>Promise</span><span>Async Flow</span></div>
+                <div class="project-actions"><a href="projects/activity2/Index.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/finals-activity-2.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="jquery">
+              <div class="project-cover">
+                <img src="images/projects/activity3-cover.png" alt="Finals Activity 3 output">
+                <span class="project-index">06</span><span class="project-type">JQUERY</span>
+              </div>
+              <div class="project-content">
+                <small>FINALS ACTIVITY 03</small><h3>jQuery Interactive Activities</h3>
+                <p>Practice pages using jQuery selectors, events, styling, table effects, profile UI, and AJAX exercises.</p>
+                <div class="project-tags"><span>jQuery</span><span>JavaScript</span><span>AJAX</span></div>
+                <div class="project-actions"><a href="projects/activity3/index.html" target="_blank">OPEN ACTIVITY ↗</a><a href="downloads/finals-activity-3.zip" download>ORIGINAL ZIP</a></div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="project-note reveal">
+          <span>✦</span>
+          All six project cards open the real activity files included with this portfolio.
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         CONTACT — message-oriented structure from the reference
+    ========================================================== -->
+    <section class="section" id="contact">
+
+      <div class="shell">
+
+        <div class="section-heading reveal">
+          <div class="section-number">04</div>
+
+          <div>
+            <p class="section-kicker">SEND A MESSAGE</p>
+            <h2>Contact Me</h2>
+            <p>
+              Have a project, internship opportunity, collaboration,
+              or frontend idea? Send me a message.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="contact-layout">
+
+
+          <article class="contact-intro reveal">
+
+            <div class="contact-file">
+              <small>HELLO.TXT</small>
+
+              <h3>Let's build something useful.</h3>
+
+              <p>
+                I'm interested in front-end projects where I can
+                improve interfaces, responsiveness, and user experience.
+              </p>
+
+              <div class="contact-details">
+
+                <button
+                  class="contact-item"
+                  id="copyEmail"
+                  type="button"
+                  data-email="your.email@example.com"
+                >
+                  <span>@</span>
+
+                  <div>
+                    <small>EMAIL</small>
+                    <strong id="emailText">
+                      your.email@example.com
+                    </strong>
+                  </div>
+                </button>
+
+                <a
+                  class="contact-item"
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>GH</span>
+
+                  <div>
+                    <small>GITHUB</small>
+                    <strong>github.com/yourusername</strong>
+                  </div>
+                </a>
+
+                <a
+                  class="contact-item"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>IN</span>
+
+                  <div>
+                    <small>LINKEDIN</small>
+                    <strong>linkedin.com/in/yourusername</strong>
+                  </div>
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="online-status">
+              <span></span>
+              OPEN TO OPPORTUNITIES
+            </div>
+
+          </article>
+
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+
+            <div class="form-window-head">
+              <span>SEND_MESSAGE.EXE</span>
+              <span>● ● ●</span>
+            </div>
+
+            <label class="form-field">
+              <span>NAME</span>
+
+              <input
+                id="name"
+                type="text"
+                placeholder="Your name"
+              >
+
+              <small class="field-error"></small>
+            </label>
+
+            <label class="form-field">
+              <span>EMAIL ADDRESS</span>
+
+              <input
+                id="email"
+                type="email"
+                placeholder="you@example.com"
+              >
+
+              <small class="field-error"></small>
+            </label>
+
+            <label class="form-field">
+              <span>SUBJECT</span>
+
+              <input
+                id="subject"
+                type="text"
+                placeholder="Project or opportunity"
+              >
+
+              <small class="field-error"></small>
+            </label>
+
+            <label class="form-field">
+              <span>COMMENT</span>
+
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Tell me about your idea..."
+              ></textarea>
+
+              <small class="field-error"></small>
+            </label>
+
+            <button class="button button-primary submit-button" type="submit">
+              SEND MESSAGE
+              <span>↗</span>
+            </button>
+
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+
+          </form>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <footer class="footer">
+
+    <div class="shell footer-layout">
+
+      <a class="brand" href="#profile">
+        <img
+          class="brand-mark"
+          src="images/brand/erson-quilala-logo.svg"
+          alt=""
+        >
+        <span>ERSON QUILALA</span>
+      </a>
+
+      <p>
+        Front-End Developer • BS Computer Science • PDM
+      </p>
+
+      <p>
+        © <span id="currentYear"></span> Erson Quilala
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

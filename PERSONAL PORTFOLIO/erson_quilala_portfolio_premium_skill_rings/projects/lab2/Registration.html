@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>My Personal Website</h1>
+  <p>Welcome to my Personal Student Portal</p>
+</header>
+
+<nav class="navigation">
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a class="active" href="Registration.html">Registration</a></li>
+    <li><a href="Grades.html">Grades</a></li>
+    <li><a href="Profile.html">Profile</a></li>
+  </ul>
+</nav>
+
+<main class="main-container">
+  <form class="card form-container" id="registrationForm">
+
+    <h2>Student Registration Form</h2>
+
+    <div class="form-group">
+      <label>Student Name</label>
+      <input class="form-control" type="text" placeholder="Enter Name" required>
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input class="form-control" type="email" placeholder="Enter Email" required>
+    </div>
+
+    <div class="form-group">
+      <label>Password</label>
+      <input class="form-control" type="password" placeholder="Enter Password" required>
+    </div>
+
+    <div class="form-group">
+      <label>Gender</label>
+      <div class="option-group">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Course</label>
+      <select class="form-control">
+        <option>Select Course</option>
+        <option>BSCS</option>
+        <option>BSIT</option>
+        <option>BSIS</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Skills</label>
+      <div class="option-group">
+        <label><input type="checkbox"> HTML</label>
+        <label><input type="checkbox"> CSS</label>
+        <label><input type="checkbox"> JavaScript</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Profile Picture</label>
+      <input class="form-control" type="file">
+      <small class="file-name" id="fileName"></small>
+    </div>
+
+    <div class="form-group">
+      <label>Address</label>
+      <textarea class="form-control"></textarea>
+    </div>
+
+    <div class="form-buttons">
+      <button class="button submit-button">Submit</button>
+      <button class="button reset-button" type="reset">Reset</button>
+    </div>
+
+    <p class="form-message" id="formMessage" aria-live="polite"></p>
+
+  </form>
+</main>
+
+<footer class="site-footer">
+  © 2026 My Personal Website
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+ERSON QUILALA PORTFOLIO — FINAL ACTIVITY CHECK
+
+JavaScript syntax checked: 11 files — PASS
+HTML/local asset references checked: 15 HTML files — PASS
+
+[PASS] Activity 4 Profile completed
+[PASS] Activity 4 Grades completed
+[PASS] Activity 4 Registration completed
+[PASS] Activity 1 dblclick fixed
+[PASS] Activity 1 wrong double event removed
+[PASS] Activity 2 Promise.all retained
+[PASS] Activity 3 local jQuery
+[PASS] Activity 3 act.js implemented
+[PASS] Activity 3 AJAX status fixed
+[PASS] Activity 5 about target works
+[PASS] Activity 5 6 cards present
+[PASS] Lab2 registration JS
